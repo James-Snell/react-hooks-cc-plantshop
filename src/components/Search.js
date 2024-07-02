@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 function Search() {
+
+
   return (
     <div className="searchbar">
       <label htmlFor="search">Search Plants:</label>
